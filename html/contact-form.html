@@ -3,9 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TLBC Contact Form</title>
 </head>
 <body>
-    
+    <header>
+        <h2>The Local Business Cafe</h2>
+    </header>
+    <h2>Contact Form</h2>
+    <form>
+        <label for="name">Name</label>
+        <br>
+        <input type="text" name="name" id="name">
+        <br>
+        <br>
+        <label for="phone">Phone Number</label>
+        <br>
+        <input type="number" name="phone" id="phone">
+        <br>
+        <br>
+        <label for="email">Email Address</label>
+        <br>
+        <input type="text" name="email" id="email">
+        <br>
+        <br>
+        <label for="enquiry">Enquiry Type</label>
+        <br>
+        <select id="enquiry" name="enquiry">
+            <option value="product-enquires">Product Enquiries</option>
+            <option value="website-issues">Website Issues</option>
+            <option value="complaints">Complaints</option>
+            <option value="suggestions">Suggestions</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+        <br>
+        <label for="description">Description</label>
+        <br>
+        <textarea id="description" name="description" rows="10" columns="50"></textarea>
+        <br>
+        <br>
+        <input type="submit">
+    </form>
 </body>
 </html>
