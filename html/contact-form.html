@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TLBC Contact Form</title>
+    <script src="/java/main.js"></script>
 </head>
 <body>
     <header>
@@ -18,7 +19,7 @@
         <br>
         <label for="phone">Phone Number</label>
         <br>
-        <input type="number" name="phone" id="phone" required>
+        <input type="text" name="phone" id="phone" pattern="[0-9]{11}" required>
         <br>
         <br>
         <label for="email">Email Address</label>
@@ -39,7 +40,7 @@
         <br>
         <label for="description">Description</label>
         <br>
-        <textarea id="description" name="description" rows="10" columns="50"  required></textarea>
+        <textarea id="description" name="description" rows="10" cols="50"  required></textarea>
         <br>
         <br>
         <input type="submit">
