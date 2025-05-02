@@ -1,0 +1,97 @@
+.index-header {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/menu-pictures/coffee-beans-pic.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: floralwhite;
+}
+
+.index-header img {
+    display: flex;
+    height: 20rem;
+    width: 20rem;
+    margin-top: 2rem;
+}
+
+.index-header nav {
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content:space-around;
+    position: absolute;
+    top: 0;
+    padding: 1rem 6rem;
+    background-color: rgb(108, 68, 27);
+}
+
+h1 {
+    font-size: 2.6rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+a {
+    font-size: 1.2rem;
+    color: bisque;
+}
+
+section {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 2;
+    background-color: rgb(108, 68, 27);
+    color:floralwhite;
+}
+
+#menu img {
+    height: 5rem;
+    width: 5rem;
+}
+
+#pic-snack {
+    height: 20rem;
+    width: 20rem;
+}
+
+img {
+    height: 5rem;
+    width: 5rem;
+}
+
+.products-menu {
+    display: flex;
+    width: 100%;
+    margin-top: 10vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+    position: relative;
+}
+
+td {
+    border: 1px solid white;
+}
+
+.tlbc-header {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+}
