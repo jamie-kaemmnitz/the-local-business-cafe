@@ -1,7 +1,22 @@
+.index-nav {
+    display: flex;
+    width: 100%;
+    padding: 1rem 0;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content:space-around;
+    position: fixed;
+    top: 0;
+    background-color: rgb(108, 68, 27);
+    z-index: 9999;
+    left: 0;
+    right: 0;
+}
+
+
 .index-header {
     display: flex;
     width: 100%;
-    height: 100vh;
     background-image: url(../images/menu-pictures/coffee-beans-pic.jpg);
     background-size: cover;
     justify-content: center;
@@ -11,23 +26,16 @@
 }
 
 .index-header img {
-    display: flex;
+    display: block;
     height: 20rem;
     width: 20rem;
     margin-top: 2rem;
 }
 
-.index-header nav {
-    display: flex;
-    width: 100%;
-    height: 5vh;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content:space-around;
-    position: absolute;
-    top: 0;
-    padding: 1rem 6rem;
-    background-color: rgb(108, 68, 27);
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -50,7 +58,6 @@ a {
 section {
     display: flex;
     width: 100%;
-    height: 100vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -58,6 +65,7 @@ section {
     line-height: 2;
     background-color: rgb(108, 68, 27);
     color:floralwhite;
+    padding: 2rem 1rem;
 }
 
 #menu img {
@@ -82,7 +90,6 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: scroll;
     position: relative;
 }
 
