@@ -5,45 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TLBC Contact Form</title>
     <script src="../java/main.js" defer></script>
+    <link href="../css/style.css" rel="stylesheet">
 </head>
-<body>
+<body id="contact-form-body">
     <header class="tlbc-header">
         <h2>The Local Business Cafe</h2>
     </header>
-    <h2>Contact Form</h2>
-    <form id="enquiry-form">
-        <label for="name">Name</label>
-        <br>
-        <input type="text" name="name" id="name" required>
-        <br>
-        <br>
-        <label for="phone">Phone Number</label>
-        <br>
-        <input type="text" name="phone" id="phone" pattern="[0-9]{11}" required>
-        <br>
-        <br>
-        <label for="email">Email Address</label>
-        <br>
-        <input type="text" name="email" id="email" required>
-        <br>
-        <br>
-        <label for="enquiry">Enquiry Type</label>
-        <br>
-        <select id="enquiry" name="enquiry" required>
-            <option value="product-enquires">Product Enquiries</option>
-            <option value="website-issues">Website Issues</option>
-            <option value="complaints">Complaints</option>
-            <option value="suggestions">Suggestions</option>
-            <option value="other">Other</option>
-        </select>
-        <br>
-        <br>
-        <label for="description">Description</label>
-        <br>
-        <textarea id="description" name="description" rows="10" cols="50"  required></textarea>
-        <br>
-        <br>
-        <input type="submit">
-    </form>
+    <div id="contact-form-entry">
+        <h2>Contact Form</h2>
+        <form id="enquiry-form">
+            <div class="input-label">
+                <br>
+                <label for="name">Name</label>
+                <br>
+                <input type="text" name="name" id="name" required>
+                <br>
+            </div>
+            <div class="input-label">
+                <br>
+                <label for="phone">Phone Number</label>
+                <br>
+                <input type="text" name="phone" id="phone" pattern="[0-9]{11}" required>
+                <br>
+            </div>
+            <div class="input-label">
+                <br>
+                <label for="email">Email Address</label>
+                <br>
+                <input type="text" name="email" id="email" required>
+                <br>
+            </div>
+            <div class="input-label">
+                <br>
+                <label for="enquiry">Enquiry Type</label>
+                <br>
+                <select id="enquiry" name="enquiry" required>
+                    <option value="product-enquires">Product Enquiries</option>
+                    <option value="website-issues">Website Issues</option>
+                    <option value="complaints">Complaints</option>
+                    <option value="suggestions">Suggestions</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+            </div>
+            <div id="description-box">
+                <br>
+                <label for="description">Description</label>
+                <br>
+                <textarea id="description" name="description" rows="8" cols="45" minlength="10" maxlength="360" required></textarea>
+                <br>
+                <br>
+                <input id="submit-button" type="submit">
+            </div>
+        </form>
+    </div>
 </body>
 </html>
