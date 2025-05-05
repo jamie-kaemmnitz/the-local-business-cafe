@@ -221,6 +221,7 @@ td {
 #submit-button {
     height: 3rem;
     width: 7rem;
+    margin-bottom: 5vh;
 }
 
 #admin-body {

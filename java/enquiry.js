@@ -10,7 +10,6 @@ function getEnquiries () {
 
 function saveEnquiries (enquiries) {
     localStorage.setItem('enquiries', JSON.stringify(enquiries))
-    console.log('Enquiries saved:', JSON.parse(localStorage.getItem('enquiries')));
 }
 
 if (contactForm) {
