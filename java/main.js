@@ -19,3 +19,4 @@ if (menuType === 'hot-drinks') {
 } else {
     alert("Something's gone wrong. Please try again")
 };
+

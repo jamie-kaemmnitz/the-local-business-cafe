@@ -287,16 +287,19 @@ td {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
+    overflow-y: auto;
     justify-content: baseline;
     align-items: center;
     padding-top: 8vh;
+    padding-bottom: 4vh;
     background-color: rgb(108, 68, 27);
     color: floralwhite;
 }
 
-#enquiry-details {
+.enquiry {
     border: 1px solid plum;
+    padding: 1rem;
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -321,4 +324,11 @@ td {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+}
+
+#log-out {
+    margin: 3vh;
+    height: 2.5rem;
+    width: 7rem;
+    align-self: center;
 }

@@ -49,7 +49,9 @@ function renderEnquiries () {
                     <h3>Enquiry ${index + 1}</h3>
                     <ul>${listItems}</ul>
                     <button class="remove-enquiry" data-index="${index}">Clear Enquiry</button>
-                </div>`;
+                </div>
+                <br>
+                <br>`; 
     }).join('');
 
     document.querySelectorAll('.remove-enquiry').forEach(button => {
