@@ -68,3 +68,11 @@ function renderEnquiries () {
 if (enquiryDetails) {
     renderEnquiries();
 }
+//
+
+const logOutButton = document.getElementById('log-out');
+
+logOutButton.addEventListener('click', function() {
+    window.location.href = 'admin-access.html';
+})
+
