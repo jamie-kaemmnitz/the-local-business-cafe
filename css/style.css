@@ -481,4 +481,35 @@ td {
 
 }
 
-@media (min-width: 1025px)
+@media (min-width: 1025px) {
+
+    img {
+        height: 8rem;
+        width: 8rem;
+    }
+
+    td {
+        font-size: 1rem;
+    }
+      
+    #enquiry-details {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        width: 100%;
+        justify-items: center;
+        max-width: none;
+    }
+    
+    
+    .enquiry {
+        border: 1px solid plum;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
