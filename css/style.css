@@ -53,6 +53,18 @@ body {
     padding: 0;
 }
 
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(84, 50, 15);
+    height: 4vh;
+}
+
+footer a {
+    font-size: 0.8rem;
+}
+
 h1 {
     font-size: 2.6rem;
 }
@@ -300,7 +312,6 @@ td {
 .enquiry {
     border: 1px solid plum;
     padding: 1rem;
-    padding: 1rem;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -491,14 +502,16 @@ td {
     td {
         font-size: 1rem;
     }
-      
+
     #enquiry-details {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
         width: 100%;
         justify-items: center;
-        max-width: none;
+        max-width: 1200px;
+        padding: 1rem;
+        box-sizing: border-box;
     }
     
     
@@ -511,5 +524,6 @@ td {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        overflow-wrap: break-word;
     }
 }
