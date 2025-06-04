@@ -102,6 +102,10 @@ section {
     padding: 2rem 1rem;
 }
 
+#menu {
+    padding: 0.5rem;
+}
+
 #menu img {
     height: 2rem;
     width: 2rem;
