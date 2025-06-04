@@ -67,6 +67,7 @@ footer a {
 
 h1 {
     font-size: 2.6rem;
+    text-align: center;
 }
 
 h2 {
@@ -102,13 +103,13 @@ section {
 }
 
 #menu img {
-    height: 4rem;
-    width: 4rem;
+    height: 2rem;
+    width: 2rem;
 }
 
 #pic-snack {
-    height: 20rem;
-    width: 20rem;
+    height: 10rem;
+    width: 10rem;
 }
 
 img {
