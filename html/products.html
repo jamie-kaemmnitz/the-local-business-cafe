@@ -9,8 +9,24 @@
 </head>
 <body id="product-body">
     <header class="tlbc-header">
-        <h2>The Local Business Cafe</h2>
-    </header>
+        <nav class="nav-links">
+            <h2 class="logo">The Local Business Cafe</h2>
+
+                <!-- Hamburger icon (for mobile) -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div id="nav-items" class="nav-items">
+                <a href="../index.html#index-header">Home</a>
+                <a href="../index.html#about">About Us</a>
+                <a href="../index.html#menu">Menu</a>
+                <a href="../index.html#contact">Contact Us</a>
+            </div>
+         </nav>
+        </header>
     <section class="products-menu" id="all-hot-drinks">
         <h2>Hot Drinks Menu</h2>
         <p><em>All drinks are available in large sizes for an extra £0.50 to their listed price</em></p>
@@ -95,7 +111,7 @@
                 </tr>
             </table>
         </div>
-        <a href="../index.html#menu">Back to Home</a>
+        <a href="../index.html#menu">Back to Menu</a>
     </section>
     <section class="products-menu" id="all-cold-drinks">
         <h2>Cold Drinks Menu</h2>
@@ -152,7 +168,7 @@
                 </tr>
             </table>
         </div>
-        <a href="../index.html#menu">Back to Home</a>
+        <a href="../index.html#menu">Back to Menu</a>
     </section>
     <section class="products-menu" id="all-snacks">
         <h2>Snacks Menu</h2>
@@ -190,7 +206,17 @@
                 </tr>
             </table>
         </div>
-        <a href="../index.html#menu">Back to Home</a>
+        <a href="../index.html#menu">Back to Menu</a>
     </section>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const hamburger = document.getElementById('hamburger');
+            const navItems = document.getElementById('nav-items');
+
+            hamburger.addEventListener('click', () => {
+            navItems.classList.toggle('active');
+            });
+        });
+    </script>
 </body>
 </html>

@@ -9,8 +9,24 @@
 </head>
 <body id="contact-form-body">
     <header class="tlbc-header">
-        <h2>The Local Business Cafe</h2>
-    </header>
+        <nav class="nav-links">
+            <h2 class="logo">The Local Business Cafe</h2>
+
+                <!-- Hamburger icon (for mobile) -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div id="nav-items" class="nav-items">
+                <a href="../index.html#index-header">Home</a>
+                <a href="../index.html#about">About Us</a>
+                <a href="../index.html#menu">Menu</a>
+                <a href="../index.html#contact">Contact Us</a>
+            </div>
+         </nav>
+        </header>
     <div id="contact-form-entry">
         <h2>Contact Form</h2>
         <form id="enquiry-form">
@@ -61,5 +77,15 @@
         </form>
     </div>
     <a href="../index.html">Back to Home</a>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const hamburger = document.getElementById('hamburger');
+            const navItems = document.getElementById('nav-items');
+
+            hamburger.addEventListener('click', () => {
+            navItems.classList.toggle('active');
+            });
+        });
+    </script>
 </body>
 </html>
