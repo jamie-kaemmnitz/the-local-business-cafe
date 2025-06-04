@@ -241,7 +241,7 @@ td {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 6vh 0;
+    padding: 0;
 }
 
 #description-box {
