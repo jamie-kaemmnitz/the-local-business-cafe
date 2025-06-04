@@ -111,6 +111,11 @@ section {
     width: 2rem;
 }
 
+#menu p{
+    padding: 0.2rem;
+    margin: 0.2rem;
+}
+
 #pic-snack {
     height: 10rem;
     width: 10rem;
