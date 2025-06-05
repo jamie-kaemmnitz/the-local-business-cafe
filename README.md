@@ -19,5 +19,14 @@ The entire webpage was created using HTML CSS and Javascript.
 
 How to Install and Run
 ----------------------
-You cabn download the code by clicking the green code button and copying the link in the box. You can also run the webpage by 
+You cabn download the code by clicking the green code button and copying the link in the box. You can also run the webpage by entering the following link into your browser - https://jamie-kaemmnitz.github.io/the-local-business-cafe/
 
+Credits
+-------
+1. Codecademy FrontEndPlus course - my initial learning for front end development
+2. Jay Patel - my mentor for the project
+3. Chat GPT - used for refining css and help with javascript functions
+
+Known Bugs
+----------
+Currently having issues with the webpage design with samsung mobile, colours slightly off and visually out of sync. 
