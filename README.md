@@ -17,5 +17,7 @@ Once you have accessed the enquiries page there will be a list of the current en
 
 The entire webpage was created using HTML CSS and Javascript.
 
+How to Install and Run
+----------------------
 
 
