@@ -19,5 +19,5 @@ The entire webpage was created using HTML CSS and Javascript.
 
 How to Install and Run
 ----------------------
-
+You cabn download the code by clicking the green code button and copying the link in the box. You can also run the webpage by 
 
