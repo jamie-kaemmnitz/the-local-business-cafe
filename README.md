@@ -30,3 +30,7 @@ Credits
 Known Bugs
 ----------
 Currently having issues with the webpage design with samsung mobile, colours slightly off and visually out of sync. 
+
+Using the Code
+--------------
+The code is open to be taken and used if you require, if you find any issues that have not been stated please create an issue in the repository. Feel free to suggest any improvemnet or add a pull request.
