@@ -546,6 +546,32 @@ td {
 
 @media (min-width: 1025px) {
 
+    #about {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; /* push h2 left, p right */
+        align-items: center;            /* vertically center if taller */
+        padding: 0 8rem;
+        width: 100%;
+        box-sizing: border-box;         /* only on this container */
+    }
+
+    #about h2,
+    #about p {
+        margin: 0;                      /* remove default margins */
+        max-width: 45%;                 /* control width so they fit side by side */
+        text-align: left;
+    }
+
+    #about h2 {
+        margin-left: 20%;
+    }
+
+    #about p {
+        margin-right: 4rem; 
+    }
+
+
     img {
         height: 8rem;
         width: 8rem;
@@ -553,6 +579,19 @@ td {
 
     td {
         font-size: 1rem;
+    }
+
+    .menu-items {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .menu-container {
+        display: flex;
+        flex-direction: row;
+        gap: 15%;
+        justify-content: center;
+        margin-top: 5rem;
     }
 
     #enquiry-details {
